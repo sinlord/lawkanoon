@@ -1,0 +1,105 @@
+div
+{
+SCROLLBAR-ARROW-COLOR:#FFFFFF;
+SCROLLBAR-FACE-COLOR:#87856B;
+SCROLLBAR-TRACK-COLOR:#87856B;
+SCROLLBAR-HIGHLIGHT-COLOR:#FFFFFF;
+SCROLLBAR-SHADOW-COLOR:#A60013;
+SCROLLBAR-3DLIGHT-COLOR:#87856B;
+SCROLLBAR-DARKSHADOW-COLOR:#FFFFFF;	
+}
+td {
+	text-align: left;
+	vertical-align: top;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#434242;
+}
+form
+{
+	margin:50px;
+}
+a
+{
+	color:#434242;
+	text-decoration:underline;
+}
+a:hover
+{
+	color:#434242;
+	text-decoration:none;
+}
+a.none
+{
+	color:#434242;
+	text-decoration:none;
+}
+a.none:hover
+{
+	color:#434242;
+	text-decoration:underline;
+}
+a.white
+{
+	color:#FBF6F7;
+	font-size:10px;
+	text-decoration:underline;
+}
+a.white:hover
+{
+	color:#FBF6F7;
+	font-size:10px;	
+	text-decoration:none;
+}
+.top
+{
+	color:#FFFFFF;
+}
+a.top
+{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+a.top:hover
+{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+a.blue
+{
+	color:#0078B9;
+	text-decoration:underline;
+}
+a.blue:hover
+{
+	color:#0078B9;
+	text-decoration:none;
+}
+.copy
+{
+	color:#787878;
+}
+a.copy
+{
+	color:#787878;
+	text-decoration:none;
+}
+a.copy:hover
+{
+	color:#787878;
+	text-decoration:underline;
+}
+.menu
+{
+	color:#FAF9F9;
+}
+a.menu
+{
+	color:#FAF9F9;
+	text-decoration:none;
+}
+a.menu:hover
+{
+	color:#FAF9F9;
+	text-decoration:underline;
+}
