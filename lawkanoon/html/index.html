@@ -15,8 +15,7 @@
 
   ga('create', 'UA-62794789-1', 'auto');
   ga('send', 'pageview');
-  function MM_swapImgRestore() { // this is the hotfix branch
-            // This is the hot fix branch
+  function MM_swapImgRestore() { //v3.0
             var i, x, a = document.MM_sr;
             for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
         }
@@ -60,20 +59,18 @@
         }
     </script>
 
+    <script type="text/javascript">
+    function validate(form){
+        fail = validateDescription(form.detail.value)
+        fail += validateName(form.name.value)
+        fail += validate(form.customer_mail.value)
+    }
+    </script>
+    <script src="validation_functions.js"></script>
+
 </HEAD>
 <BODY BGCOLOR=#FFFFFF LEFTMARGIN=0 TOPMARGIN=0 rightmargin="0" bottommargin="0" MARGINWIDTH=0 MARGINHEIGHT=0
       onLoad="MM_preloadImages('images/m11.jpg','images/m21.jpg','images/m31.jpg','images/m41.jpg','images/m51.jpg')" onresize="changeImage();" >
-
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5N34PQ"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5N34PQ');</script>
-<!-- End Google Tag Manager -->
-
     <script type="text/javascript">
         <!-- Hide Javascript
           function changeImage(){
@@ -81,16 +78,11 @@
               document.getElementById("banner1").style.height="75%";
               return true;
           }
-        function changeColor(){
-            document.getElementById("jstest").style.color="red";
-            return true;
-        }
-        function changeAgain(){
-            document.getElementById("jstest").style.color="black";
-            return true;
-        }
+
          -->
     </script>
+
+
     <h3 id="jstest" onmouseover="changeColor();" onmouseout= "changeAgain();">Rollover!! </h3>
 <center>
     <TABLE WIDTH=712 id="banner1" BORDER=0 CELLPADDING=0 CELLSPACING=0>
@@ -191,7 +183,7 @@
                 <TABLE WIDTH=712 BORDER=0 CELLPADDING=0 CELLSPACING=0>
                     <TR>
                         <TD>
-                            <form name="form1" method="post" action="send_contact.php">
+                            <form name="form1" method="post" action="send_contact.php" onsubmit="return validate(this)">
                                 <table width="649" border="0" cellspacing="1" cellpadding="3">
                                     <tr>
                                         <td width="40%">Description <br>(A line on how and why you reached this page)</td>
