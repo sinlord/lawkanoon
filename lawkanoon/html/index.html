@@ -81,16 +81,18 @@
               document.getElementById("banner1").style.height="75%";
               return true;
           }
-        function changeColor(){
-            document.getElementById("jstest").style.color="red";
-            return true;
-        }
-        function changeAgain(){
-            document.getElementById("jstest").style.color="black";
-            return true;
+
+        function validate (form){
+            fail = validateDescription(form.detail.value)
+            fail = validateName (form.name.value)
+            fail = validateEmail (form.customer_mail.value)
+            if (fail=="") return true
+            else { alert (fail);return false}
         }
          -->
     </script>
+    <script src="validation_functions.js"></script>
+
     <h3 id="jstest" onmouseover="changeColor();" onmouseout= "changeAgain();">Rollover!! </h3>
 <center>
     <TABLE WIDTH=712 id="banner1" BORDER=0 CELLPADDING=0 CELLSPACING=0>
@@ -191,10 +193,10 @@
                 <TABLE WIDTH=712 BORDER=0 CELLPADDING=0 CELLSPACING=0>
                     <TR>
                         <TD>
-                            <form name="form1" method="post" action="send_contact.php">
+                            <form name="form1" method="post" action="send_contact.php" onsubmit="return validate(this)">
                                 <table width="649" border="0" cellspacing="1" cellpadding="3">
                                     <tr>
-                                        <td width="40%">Description <br>(A line on how and why you reached this page)</td>
+                                        <td name = "description" width="40%">Description <br>(A line on how and why you reached this page)</td>
                                         <td width="2%">:</td>
                                         <td width="58%"><textarea name="detail" cols="50" rows="4" id="detail"></textarea></td>
                                     </tr>
