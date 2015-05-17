@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac18689-0ec6-4451-a5ac-e490cc0ed08d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/config.php" afterPath="$PROJECT_DIR$/html/config.php" />
     </list>
     <ignored path="lawkanoon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="315">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.026455026" vertical-offset="0" max-vertical-offset="567">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,17 +195,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.105820104" vertical-offset="405" max-vertical-offset="2265">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="2265">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="n#script#0;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
                 <element signature="e#798#946#0" expanded="false" />
                 <element signature="e#984#1413#0" expanded="false" />
                 <element signature="e#1449#2034#0" expanded="false" />
                 <element signature="e#2068#2439#0" expanded="false" />
+                <element signature="n#script#1;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
                 <element signature="n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
                 <element signature="n#script#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
                 <element signature="n#center#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
@@ -404,6 +404,7 @@
         <option value="$PROJECT_DIR$/html/validation_functions.js" />
         <option value="$PROJECT_DIR$/html/change_color.js" />
         <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/config.php" />
       </list>
     </option>
   </component>
@@ -416,8 +417,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1314" />
-    <option name="y" value="22" />
+    <option name="x" value="1344" />
     <option name="width" value="1280" />
     <option name="height" value="711" />
   </component>
@@ -557,7 +557,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1314" y="22" width="1280" height="711" extended-state="6" />
+    <frame x="1344" y="0" width="1280" height="711" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -620,6 +620,7 @@
             <element signature="e#984#1413#0" expanded="false" />
             <element signature="e#1449#2034#0" expanded="false" />
             <element signature="e#2068#2439#0" expanded="false" />
+            <element signature="n#script#1;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#center#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
@@ -917,6 +918,7 @@
             <element signature="e#984#1413#0" expanded="false" />
             <element signature="e#1449#2034#0" expanded="false" />
             <element signature="e#2068#2439#0" expanded="false" />
+            <element signature="n#script#1;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#center#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
@@ -1214,6 +1216,7 @@
             <element signature="e#984#1413#0" expanded="false" />
             <element signature="e#1449#2034#0" expanded="false" />
             <element signature="e#2068#2439#0" expanded="false" />
+            <element signature="n#script#1;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#center#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
@@ -1537,6 +1540,7 @@
             <element signature="e#984#1413#0" expanded="false" />
             <element signature="e#1449#2034#0" expanded="false" />
             <element signature="e#2068#2439#0" expanded="false" />
+            <element signature="n#script#1;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#center#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
@@ -1830,6 +1834,7 @@
             <element signature="e#984#1413#0" expanded="false" />
             <element signature="e#1449#2034#0" expanded="false" />
             <element signature="e#2068#2439#0" expanded="false" />
+            <element signature="n#script#1;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#center#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
@@ -2123,6 +2128,7 @@
             <element signature="e#984#1413#0" expanded="false" />
             <element signature="e#1449#2034#0" expanded="false" />
             <element signature="e#2068#2439#0" expanded="false" />
+            <element signature="n#script#1;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#center#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
@@ -2273,6 +2279,7 @@
             <element signature="e#984#1413#0" expanded="false" />
             <element signature="e#1449#2034#0" expanded="false" />
             <element signature="e#2068#2439#0" expanded="false" />
+            <element signature="n#script#1;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#center#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
@@ -2416,6 +2423,7 @@
             <element signature="e#984#1413#0" expanded="false" />
             <element signature="e#1449#2034#0" expanded="false" />
             <element signature="e#2068#2439#0" expanded="false" />
+            <element signature="n#script#1;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#center#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
@@ -2920,24 +2928,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="315">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.105820104" vertical-offset="405" max-vertical-offset="2265">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="2265">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="n#script#0;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="e#798#946#0" expanded="false" />
             <element signature="e#984#1413#0" expanded="false" />
             <element signature="e#1449#2034#0" expanded="false" />
             <element signature="e#2068#2439#0" expanded="false" />
+            <element signature="n#script#1;n#HEAD#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#center#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
@@ -3039,6 +3040,14 @@
             <element signature="n#a#0;n#p#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026455026" vertical-offset="0" max-vertical-offset="567">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

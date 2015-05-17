@@ -1,6 +1,6 @@
 <?php
-
 //database credentials
+
 define('DBHOST','localhost');
 define('DBUSER','abhinav_law');
 define('DBPASS','abhinavlaw1982');

@@ -5,7 +5,7 @@
     <meta name="keywords" content="law, kanoon, kanun, kanon, indian, justice, order, court, lawyer">
     <meta name="description" content="Information on indian law and order">
     <LINK HREF="style.css" TYPE="text/css" REL="stylesheet">
-    
+
     <script>
     
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -59,14 +59,8 @@
         }
     </script>
 
-    <script type="text/javascript">
-    function validate(form){
-        fail = validateDescription(form.detail.value)
-        fail += validateName(form.name.value)
-        fail += validate(form.customer_mail.value)
-    }
-    </script>
-    <script src="validation_functions.js"></script>
+
+
 
 </HEAD>
 <BODY BGCOLOR=#FFFFFF LEFTMARGIN=0 TOPMARGIN=0 rightmargin="0" bottommargin="0" MARGINWIDTH=0 MARGINHEIGHT=0
@@ -78,12 +72,12 @@
               document.getElementById("banner1").style.height="75%";
               return true;
           }
+
          -->
     </script>
 
     <script src="change_color.js"></script>
     <h3 id="jstest" onmouseover="changeColor();" onmouseout= "changeAgain();">Rollover!! </h3>
-
 <center>
     <TABLE WIDTH=712 id="banner1" BORDER=0 CELLPADDING=0 CELLSPACING=0>
         <TR>
@@ -184,6 +178,28 @@
                     <TR>
                         <TD>
                             <form name="form1" method="post" action="send_contact.php" onsubmit="return validate(this)">
+                                <script type="text/javascript">
+                                    onerror = errorHandler;
+                                    function validate(form){
+                                        fail = validateDescription(form.detail.value);
+                                        fail += validateName(form.name.value);
+                                        fail += validateEmail(form.customer_mail.value);
+                                        if (fail == "")return true
+                                        else { alert(fail); return false}
+                                    }
+
+                                    function errorHandler(message, url, line){
+                                        out = "sorry an error was encountered\n\n";
+                                        out += "Error : " + message + "\n";
+                                        out += "URL : " + url + "\n";
+                                        out += "Line : " + line + "\n";
+                                        out += "click OK to continue \n \n";
+                                        alert(out);
+                                        return true;
+                                    }
+                                </script>
+                                <script src="validation_functions.js"></script>
+
                                 <table width="649" border="0" cellspacing="1" cellpadding="3">
                                     <tr>
                                         <td width="40%">Description <br>(A line on how and why you reached this page)</td>
@@ -249,10 +265,8 @@
         </TR>
     </TABLE>
 </center>
-<p style="text-align:center;font-family:Tahoma;font-size:12px;"><a href="http://supremecourtofindia.nic.in"
-                                                                   style="font-size:12px;font-weight:bold;"
-                                                                   title="Supreme Court website">Supreme Court Of
-    India</a> Courtesy by LawKanoon</p>
+<p style="text-align:center;font-family:Tahoma;font-size:12px;">
+    <a href="http://supremecourtofindia.nic.in" target="_blank" style="font-size:12px;font-weight:bold;" title="Supreme Court website">Supreme Court Of India</a> Courtesy by LawKanoon</p>
 </BODY>
 </HTML>
 <?php session_destroy();?>

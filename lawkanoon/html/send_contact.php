@@ -39,16 +39,18 @@
                     } catch (PDOException $e) {
                         echo $e->getMessage();
                     }
+
                     $send_contact = mail($to, $subject, $message, $header);
+
                     if ($send_contact) {
-                        echo "Thanks!! your input is really helpful!!";
-                       /* header('Refresh: 1; URL=index.html'); */
+                        echo "Thanks!! your input is really helpful!!!!";
                         exit();
                     } else {
                         echo "Oops!! There was some error in sending. Please try again.";
                        /* header('Refresh: 1; URL=index.html');*/
                     }
-                } ?>
+                }
+                ?>
 
             </h3></div>
     </div>
