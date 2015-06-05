@@ -3,7 +3,7 @@
  */
 
 function changeColor(){
-    document.getElementById("jstest").style.color="red";
+    document.getElementById("jstest").style.color="red"; //changing color to red on mouseover
     return true;
 }
 function changeAgain(){
